@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: rgb(72, 67, 67);
+  font-size: 10vmin;
+}
+body {
+  background-image: url(bg.PNG);
+  background-size: cover;
+  text-align: center;
+}
+.container {
+  height: 70vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  background-color: #ffffc7;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(215, 205, 205, 0.3);
+  font-size: 10vmin;
+  color: rgb(156, 42, 42);
+}
+#reset-btn {
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: rgb(39, 37, 37);
+  color: rgb(233, 241, 241);
+  border-radius: 2rem;
+  border: none;
+}
+#new-btn {
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: rgb(39, 37, 37);
+  color: rgb(233, 241, 241);
+  border-radius: 2rem;
+  border: none;
+}
+#msg {
+  color: #ffffc7;
+  font-size: 10vmin;
+}
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4vmin;
+}
+.hide {
+  display: none;
+}
+.playerX {
+  color: rgb(182, 38, 48);
+}
+.playerO {
+  color: rgb(11, 204, 238);
+}
